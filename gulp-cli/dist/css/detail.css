@@ -1,0 +1,364 @@
+@charset "UTF-8";
+.topest, .header, .mainWarp {
+  width: 1200px;
+  margin: auto; }
+
+.topest {
+  height: 24px;
+  line-height: 24px;
+  background: #eee; }
+
+.list-l {
+  float: left; }
+
+.list-l li {
+  float: left;
+  height: 24px;
+  color: #999; }
+
+.list-l a {
+  color: #F40000; }
+
+.list-l li:nth-child(1) {
+  margin-right: 15px; }
+
+.list-r {
+  float: right; }
+
+.list-r li {
+  float: left;
+  margin-left: 15px; }
+
+.list-r a {
+  color: #999; }
+
+.list-r .lastA {
+  color: #F40000; }
+
+.header {
+  height: 160px;
+  margin-top: 58px;
+  border-bottom: 1px solid #f40000; }
+
+.header img {
+  float: left; }
+
+.header-t {
+  width: 1200px;
+  height: 120px; }
+
+.rightBox {
+  width: 820px;
+  height: 44px;
+  float: right;
+  margin-top: 20px; }
+
+.searchBox {
+  width: 440px;
+  height: 40px;
+  border: 2px solid #ff2f03;
+  border-radius: 6px;
+  float: left; }
+
+.searchBox input {
+  width: 336px;
+  height: 40px;
+  padding-left: 20px;
+  font-size: 16px;
+  float: left; }
+
+.searchBox button {
+  width: 78px;
+  height: 40px;
+  border: none;
+  background: #ff2f03;
+  font-size: 16px;
+  color: #fff;
+  float: right; }
+
+.btn {
+  width: 110px;
+  height: 44px;
+  border: 1px solid #f40000;
+  border-radius: 4px;
+  font-size: 14px;
+  background: white;
+  margin-left: 60px;
+  color: #f40000; }
+
+.rightBox ul {
+  margin-top: 8px; }
+
+.rightBox ul li {
+  float: left;
+  margin-right: 15px; }
+
+.rightBox a {
+  color: #999; }
+
+.header-b {
+  width: 1200px;
+  height: 40px; }
+
+.sort {
+  width: 230px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background: #f40000;
+  color: white;
+  font-size: 14px;
+  float: left; }
+
+.nav {
+  width: 850px;
+  height: 40px;
+  float: right; }
+
+.nav li {
+  float: left;
+  margin-right: 60px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 15px; }
+
+.nav li:hover a {
+  color: #F40000; }
+
+.nav a {
+  color: #333; }
+
+.mainWarp {
+  width: 1165px;
+  height: 480px;
+  padding: 10px 20px 5px 15px;
+  border: 1px solid #bbb; }
+
+.main {
+  /* overflow: hidden; */
+  position: relative;
+  width: 400px;
+  height: 480px;
+  float: left; }
+
+.left {
+  float: left;
+  width: 400px;
+  height: 400px;
+  position: relative;
+  margin-bottom: 4px; }
+
+.left .mask {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: orange;
+  opacity: .4;
+  cursor: move;
+  display: none; }
+
+.maxBox {
+  position: absolute;
+  left: 400px;
+  top: 0;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  display: none; }
+
+.maxBox img {
+  position: absolute;
+  left: 0;
+  top: 0px;
+  z-index: 999; }
+
+.min {
+  width: 400px; }
+
+.bottom {
+  height: 62px;
+  margin-top: 10px;
+  float: left; }
+
+.bottom img {
+  width: 58px;
+  height: 58px;
+  float: left;
+  margin-right: 20px;
+  border: 2px solid rgba(255, 0, 0, 0); }
+
+.mainR {
+  width: 700px;
+  height: 440px;
+  border: 1px solid #ddd;
+  float: right;
+  padding-left: 30px; }
+
+.title {
+  margin: 12px 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+  height: 47px; }
+
+.mainR {
+  font-size: 14px;
+  color: #666; }
+
+.title {
+  color: #333;
+  font-size: 18px; }
+
+.price {
+  font-size: 14px;
+  color: #F40000; }
+
+.price span {
+  padding: 8px;
+  color: #666; }
+
+.price em {
+  font-size: 24px;
+  color: #F40000;
+  font-weight: bold;
+  font-family: 'Î¢ï¿½ï¿½ï¿½Åºï¿½','Microsoft Yahei','PingFangSC-Regular'; }
+
+.mainR .ding {
+  padding: 8px;
+  margin-top: 16px; }
+
+.payType {
+  height: 30px;
+  padding: 10px 0 10px 8px;
+  background: #eee;
+  color: #333;
+  line-height: 30px; }
+
+.payType span {
+  color: #F40000; }
+
+.mainR h3 {
+  font-size: 14px;
+  padding: 8px; }
+
+.shopNum {
+  margin-top: 10px;
+  padding-left: 8px;
+  height: 30px;
+  line-height: 30px; }
+
+.shopNum span {
+  width: 42px;
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  margin-right: 20px; }
+
+.inputBtn {
+  width: 120px;
+  height: 30px;
+  float: left; }
+
+.inputBtn button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background: #ccc;
+  float: left;
+  font-size: 18px; }
+
+.inputBtn input {
+  width: 56px;
+  height: 28px;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-left: none;
+  border-right: none;
+  float: left; }
+
+.mainR .shopping {
+  display: block;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 120px;
+  height: 36px;
+  border-radius: 6px;
+  color: white;
+  background: #F40000;
+  text-align: center;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: bold; }
+
+.tip, .jubao {
+  height: 20px;
+  padding-left: 15px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #f40000; }
+
+.tip a, .jubao a {
+  color: #f40000;
+  text-decoration: underline; }
+
+.jubao {
+  font-size: 15px;
+  color: #111; }
+
+.content {
+  width: 1200px;
+  margin: auto;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  overflow: hidden;
+  padding: 15px 0 10px 0; }
+
+.content img {
+  float: left;
+  margin-right: 20px; }
+
+.contentR {
+  width: 930px;
+  min-height: 600px;
+  float: left;
+  border: 1px solid #bbb;
+  position: relative; }
+
+.contentR ul {
+  height: 48px;
+  background: #ddd;
+  border-bottom: 1px solid #bbb; }
+
+.contentR ul li {
+  width: 120px;
+  height: 47px;
+  float: left;
+  text-align: center;
+  line-height: 48px;
+  font-size: 18px;
+  color: #666;
+  cursor: default;
+  user-select: none; }
+
+.contentR ul li:nth-child(1) {
+  background: white; }
+
+.goodWarp {
+  width: 100%;
+  padding-left: 15px;
+  overflow: hidden; }
+
+.contentR span {
+  display: block;
+  width: 100px;
+  font-size: 14px;
+  color: #F40000;
+  margin-top: 20px;
+  margin-bottom: 14px; }
+
+.goodWarp1 {
+  position: absolute;
+  top: 48px;
+  display: none; }
